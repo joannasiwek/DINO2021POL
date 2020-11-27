@@ -2,8 +2,15 @@
   <body>
     <p>Hello World</p>
     <p>git clone /path/to/repository - klonuje repozytorium z podanej ścieżki do obecnego folderu na dysku</p>
+    <p> <span style="font-weight:700">git init</span> - Polecenie tworzy nowe repozytorium git lub resetuje aktualne </p>
     <p> git config --global user.email "" - Komenda służy do konfiguracji adresu email. Opcja --global zmienia adres email dla wszystkich projektów git. </p>
+    <p> git commit "filename" -> zapisuje migawkę plików naszego projektu. Commit zawiera wszystkie pliki projektu. W przypadku plików, które się nie zmieniły, git przechowuje tylko łącze do poprzedniego identycznego pliku, który jest już zapisany. </p>
+    <p> git checkout -b "branch" - tworzy nową gałąź o nazwie "branch" i przełączą się na nią </p>
+    <p>git branch -d "branch" - usuwa branch o podanej nazwie w tym przypadku: "branch"</p>
     <p>git config --global color.ui true -> Komenda ustawiona na wartość true koloruje informacje zwrotne przeznaczone dla użytkownika w terminalu.</p>
     <p>git fetch - pobieranie zmian z odpowiednich gałęzi zdalnych do gałęzi lokalnych je śledzących bez scalania zmian</p>    
+    <p>git reset HEAD - polecenie, które przywraca stan repozytorium do zatwierdzenia HEAD.</p>
+    <p>git diff --staged - pokazuje zawartość poczekalni która trafi do repozytorium wraz z najbliższym zatwierdzeniem. Porównuje zmiany poczekalni z ostatnią zmianą</p>
+    <p> git push - komenda służy do pushowania zmian z lokalnego repozytorium do repozytorium zdalnego </p>  
   </body>
 </html>
