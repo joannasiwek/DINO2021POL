@@ -12,7 +12,11 @@
     <p>git reset HEAD - polecenie, które przywraca stan repozytorium do zatwierdzenia HEAD.</p>
     <p>git diff --staged - pokazuje zawartość poczekalni która trafi do repozytorium wraz z najbliższym zatwierdzeniem. Porównuje zmiany poczekalni z ostatnią zmianą</p>
     <p> git push - komenda służy do pushowania zmian z lokalnego repozytorium do repozytorium zdalnego </p>  
+    <p> git bisect - To polecenie wykorzystuje binarny algorytm wyszukiwania, aby znaleźć, który commit w historii Twojego projektu wprowadził błąd. Używasz go, mówiąc najpierw o "bad" zatwierdzeniu, o którym wiadomo, że zawiera błąd, i "good" zatwierdzeniu, o którym wiadomo, że było przed wprowadzeniem błędu. Następnie git bisect wybiera commit pomiędzy tymi dwoma punktami końcowymi i pyta czy wybrany commit jest "good " czy "bad". Nadal zawęża zakres, aż znajdzie dokładny commit, który wprowadził zmianę. <p>
+    <p> git branch -v - Dzięki tej komendzie widzimy ostatnie commity z każdej gałęzi </p>
     <p> 'git log --graph --all' - komenda pokazuje logi commitów, opcja --graph rysuje graf historii commitów </p>
-    <p> git pull "remote" "branch" - wszystkie zmiany z gałęzi "branch" ze zdalnego repozytorium o nazwie "remote" zostaną pobrane do zdalnego repozytorium na gałąź "branch" </p>
+    <p>git push "remote" "branch" - pushuje gałąź o nazwie "branch" do zdalnej gałęzi "remote"</p>
+    <p>git pull "remote" "branch" - komenda aktualizuje lokalne repozytorium do ostatniego commita</p>
+    <p>git config --global user.name "" - komenda służy do ustawienia nazwy użytkownika, opcja --global powoduje, że dla każdego projektu git w danym systemie przypisana będzie ta nazwa użytkownika</p>
   </body>
 </html>
