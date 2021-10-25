@@ -2,6 +2,8 @@
 
 Zajęcia 4 - Git - instrukcja
 
+Każdy ze studentów wyjaśnia w pliku index jedną z komend podanych poniżej.
+
 Wymagania:
 
 Odpowiedzi powinny mieć formę 1 pliku HTML opracowywanego przez całą grupę.
